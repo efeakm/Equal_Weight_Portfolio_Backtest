@@ -1,7 +1,12 @@
 # Equal_Weight_Portfolio_Backtester
 ## OBJECTIVE<br />
 A Web Application built by streamlit package which rebalances daily the weights of stocks, commodities, FX, ETFs etc. Then calculates return and maximum drawdown and plots them while comparing to a base portfolio. You can see examples of plot and output csv files under the names "comparison_plot.png" and "portfolio_allocation.csv". Also has the options for weekly and monthly investments, reinvest a certain amount when the portfolio loses some percentage etc. You can see screenshots of the web application
+
+## PHOTOS
+### Photo_1<br />
 ![This is an image](Screenshot_1.png)
+<br /><br />
+### Photo_2<br />
 ![This is an image](Screenshot_2.png)
 
 ## INTRO<br />
