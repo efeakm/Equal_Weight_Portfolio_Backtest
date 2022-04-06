@@ -1,6 +1,6 @@
 # Equal_Weight_Portfolio_Backtester
 ## OBJECTIVE<br />
-A Web Application built by streamlit package which rebalances daily the weights of stocks, commodities, FX, ETFs etc. Then calculates return and maximum drawdown and plots them while comparing to a base portfolio. You can see examples of plot and output csv files under the names "comparison_plot.png" and "portfolio_allocation.csv". Also has the options for weekly and monthly investments, reinvest a certain amount when the portfolio loses some percentage etc. You can see screenshots of the web application
+A Web Application built by streamlit package which rebalances daily the weights of stocks, commodities, FX, ETFs etc. Then calculates return and maximum drawdown and plots them while comparing to a base portfolio. Also has the options for weekly and monthly investments, reinvest a certain amount when the portfolio loses some percentage etc. You can see screenshots of frontend of the web application below.
 
 ## PHOTOS
 ### Photo_1<br />
@@ -9,10 +9,6 @@ A Web Application built by streamlit package which rebalances daily the weights 
 ### Photo_2<br />
 ![This is an image](Screenshot_2.png)
 
-## INTRO<br />
-If there is no input.xlsx file in the directory of portfolio.exe, run it once and it will create input excel file.<br />
-Whenever portfolio.py runs without error it will make a beep sound (on Windows) and will create comparison_plot image file and portfolio_allocation.csv file.<br />
-If portfolio.py doesn’t working, just remove input.xlsx and run portfolio.py once to make it recreate input.xlsx. Then run again and it will work smoothly.<br />
 
 ## INPUT PARAMETERS<br />
 **Stock list:** the name of the stocks, etfs etc. you want to include in your portfolio.<br />
@@ -27,7 +23,7 @@ Below initial percentage: Whenever, you are reinvesting with constant amount, it
 **Weekly amount:** weekly periodic constant investment amount<br />
 **Monthly amount:** monthly periodic constant investment amount<br />
 
-## OUTPUT COLUMNS<br />
+## OUTPUT DATA COLUMNS<br />
 **Date:** date<br />
 **Price_X:** price of the X stock<br />
 **X_size:** USD amount of X stock in the portfolio<br />
