@@ -367,9 +367,12 @@ temp = temp.rename(mapp, axis=1)
 temp.to_csv('portfolio_allocation.csv', index = False)
 
 
-import winsound
-winsound.Beep(frequency = 2500, duration = 1250 )
-
+#Makes a beep sound if the OS is Windows
+try:
+    import winsound
+    winsound.Beep(frequency = 2500, duration = 1250 )
+except:
+    0
 
 
     
